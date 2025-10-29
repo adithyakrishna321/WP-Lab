@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 8px 10px;
+    }
+    input[type="text"], input[type="date"], input[type="email"] {
+      width: 200px;
+      padding: 5px;
+    }
+    input[type="submit"] {
+      padding: 8px 16px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Student Registration</h1>
+
+<form action="" method="post">
+  <table>
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name" required></td>
+    </tr>
+    <tr>
+      <td>Roll No:</td>
+      <td><input type="text" name="rollno" required></td>
+    </tr>
+    <tr>
+      <td>Admission Number:</td>
+      <td><input type="text" name="admissionno" required></td>
+    </tr>
+    <tr>
+      <td>Date of Birth:</td>
+      <td><input type="date" name="dob" required></td>
+    </tr>
+    <tr>
+      <td>Sex:</td>
+      <td>
+        <input type="radio" name="sex" value="Male" required> Male
+        <input type="radio" name="sex" value="Female"> Female
+      </td>
+    </tr>
+    <tr>
+      <td>Phone No:</td>
+      <td><input type="text" name="phone" required></td>
+    </tr>
+    <tr>
+      <td>Email id:</td>
+      <td><input type="email" name="email" required></td>
+    </tr>
+  </table>
+  
+  <div style="text-align: center;">
+    <input type="submit" value="Submit">
+  </div>
+</form>
+
+</body>
+</html>
+
